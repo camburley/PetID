@@ -1,0 +1,29 @@
+{
+  "name": "messenger-webview",
+  "version": "1.0.0",
+  "description": "An example webhook for Facebook Messenger that shows how to use webviews with your bot.",
+  "main": "app.js",
+  "engines": {
+    "node": "9.5.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbsamples/messenger-platform-samples.git"
+  },
+  "author": "Facebook",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^0.19.0",
+    "async": "^2.6.1",
+    "body-parser": "^1.15.0",
+    "dotenv": "^5.0.0",
+    "express": "^4.13.4",
+    "fs": "0.0.1-security",
+    "request": "^2.72.0",
+    "request-promise": "^4.2.2",
+    "sync-request": "^6.0.0"
+  }
+}
